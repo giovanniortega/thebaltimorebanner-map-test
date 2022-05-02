@@ -1,0 +1,11 @@
+.banner-container {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 20px;
+}
+
+@media (min-width: 960px) {
+  .banner-container {
+    flex-flow: row wrap;
+  }
+}

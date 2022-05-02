@@ -1,0 +1,36 @@
+.infcontrols-container {
+  width: 100%;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.control-select {
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid black;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.table-info {
+  width: 100%;
+}
+
+.table-info td {
+  padding: 5px 0;
+}
+
+.table-info tbody td {
+  font-weight: bold;
+}
+
+@media (min-width: 960px) {
+  .infcontrols-container {
+    width: 30%;
+  }
+}
